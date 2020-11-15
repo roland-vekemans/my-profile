@@ -1,0 +1,123 @@
+
+/*colors and fonts*/
+body {
+  background-color: #f8f9fa;
+  color: #003f88;
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  font-size: 30px;
+  color: #00296b;
+}
+h2, h3 {
+  font-size: 22px;
+  color: #00509d;
+  text-align: center;
+}
+
+/*photo*/
+#profile-picture {
+  width: 100px;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
+/*Custom design with class*/
+.container {
+  width: 1000px;
+  margin: 50px auto;
+}
+.card-white {
+    background: white;
+    padding: 15px;
+    margin: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: auto;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+}
+.flex-child1 {
+    flex: 1;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    margin: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-right: 12.5px;
+    padding: 15px;
+}
+.flex-child2 {
+    flex: 1;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    margin: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 12.5px;
+    padding: 15px;
+}
+.btn-blue {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration:none;
+  background-color: #00509d;
+  color: #fdc500;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color: #0059b3;
+  color: #fdc500;
+}
+
+/*responsive design*/
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+/*list*/
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 15px;
+}
+.list-inline i {
+  font-size: 25px;
+  color: #fdc500;
+}
+.list-inline i:hover {
+  font-size: 25px;
+  color:#00509d;
+}
+
+/* Design adjustments using id*/
+#introduction p {
+  margin-bottom: 30px;
+}
